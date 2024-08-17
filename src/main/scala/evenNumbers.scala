@@ -1,6 +1,9 @@
 object evenNumbers {
   def main(args:Array[String]):Unit={
-    for(i<- 1 to 5)
+    var i=2
+    while (i <11) {
       println(i)
+      i +=2
+    }
   }
 }
